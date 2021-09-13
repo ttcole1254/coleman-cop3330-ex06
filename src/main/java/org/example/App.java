@@ -23,7 +23,7 @@ public class App
         else {
             int inputAge = parseInt(inputAgeS);
             Scanner askRetirementAge = new Scanner(System.in);
-            System.out.println("Age what age would you like to retire? ");
+            System.out.println("At what age would you like to retire? ");
             String inputRetirementAgeS = askRetirementAge.nextLine();
             if(inputRetirementAgeS.isEmpty()) {
                 System.out.println("Retirement age is required!");
